@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://wallpapercave.com/wp/wp1981962.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cocktail {
+    background: rgba(5, 7, 12, 0.30);
+    border: rgba(5, 7, 12, 0.30);
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Bitter', serif;
+    font-weight: 900;
+}
+
+.cocktail img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cocktail h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cocktail p {
+    padding: 0 10px 10px;
+    font-size: medium;
+    color: whitesmoke;
+    font-family: 'Bitter', serif;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
